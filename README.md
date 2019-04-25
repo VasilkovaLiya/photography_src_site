@@ -4,4 +4,4 @@
 
 **Комментарии**: Отправка формы с выводом popup об отправке успешно выполняется на локальном сервере
 
-# ссылка на сайт https://vasilkovaliya.github.io/photography_src_site/site/
+# ссылка на готовую работу: https://vasilkovaliya.github.io/photography_src_site/site/
