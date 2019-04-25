@@ -1,0 +1,58 @@
+@function rem($px) {
+    @return $px / 16px + 0rem;
+}
+
+
+@mixin tablet{
+    @media screen and (max-width: $tablet){
+        @content;
+    }
+}
+
+@mixin phone{
+    @media screen and (max-width: $phone){
+        @content;
+    }
+}
+
+@mixin phone-big{
+    @media screen and (max-width: 635px){
+        @content;
+    }
+}
+
+@mixin phone--small{
+    @media screen and (max-width: 375px){
+        @content;
+    }
+}
+
+@mixin tablet--big{
+    @media screen and (max-width: 1200px){
+        @content;
+    }
+}
+
+@mixin minratio{
+    @media (min-aspect-ratio: 16/9) {
+        @content;
+    }
+}
+@mixin maxratio{
+    @media (max-aspect-ratio: 16/9) {
+        @content;
+    }
+}
+
+@mixin support{
+    @supports (object-fit: cover) {
+        @content;
+    }
+}
+
+@mixin font1 {
+    font-family: 'OfficinaSansBookC';    
+}
+@mixin font2 {
+    font-family: 'Bubbleboddy Neue Trial';
+}
